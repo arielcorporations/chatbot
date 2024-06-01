@@ -1,15 +1,13 @@
-// src/App.js
 import React from 'react';
-import './App.css';
-import Chatbot from './Chatbot';
+import Chatbot from './Chatbot'; // Ensure this path matches your file structure
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>ברוכים הבאים לדוגמת הצ'אטבוט של React</h1>
+        <h1>Welcome to React Simple Chatbot</h1>
+        <Chatbot />
       </header>
-      <Chatbot />
     </div>
   );
 }
